@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <div class="footer">Steve Androulakis, Monash Bioinformatics Platform (slides: steveandroulakis.github.io/goblet-clouds)</div>
 
-# The Problem: Physical Limits & Need for Automation = Complex Interfaces
+# The Problem: Physical Limits & Need for Automation = Complex Compute Interfaces
 ```{r The Problem}
 ```
 
