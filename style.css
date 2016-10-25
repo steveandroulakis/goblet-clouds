@@ -1,0 +1,112 @@
+.gdbar img {
+  width: 376px !important;
+  height: 160px !important;
+  margin: 8px 8px;
+}
+
+.gdbar {
+  width: 376px !important;
+  height: 160px !important;
+}
+
+slides > slide:not(.nobackground):before {
+  width: 141px;
+  height: 60px;
+  background-size: 141px 60px;
+}
+
+.emphasized {
+   font-size: 1.8em;
+   font-weight: bold;
+}
+
+.smaller {
+   padding: 0.5em;
+   font-size: 0.8em;
+}
+
+table{
+  font-size: 0.8em;
+  width: 80%;
+}
+
+table,
+.table-condensed,
+table.rmdtable {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+table,
+.table-condensed,
+table.rmdtable,
+table.rmdtable,
+.table > thead > tr {
+  border-collapse: collapse;
+  border-style: solid;
+  border-spacing: 0;
+  border-width: medium 0 medium 0;
+  border-color: inherit
+}
+table.rmdtable th,
+table.rmdtable td,
+table th,
+table.rmdtable tr > td:first-child,
+table.rmdtable .even {
+  font-size: 100%;
+  padding: 0.4em 0.5em;
+  color: inherit;
+  background: #FFF;
+  font-weight: normal;
+}
+.table > tbody > tr > td {
+  border-width: 0;
+}
+
+table.rmdtable th, table th
+{
+  font-weight: bold;
+  border-collapse: collapse;
+  border-style: solid;
+  border-spacing: 0;
+  border-width: medium 0 medium 0;
+  border-color: inherit;
+  font-size: 1em;
+}
+
+
+.footer {
+    color: #f2f2f2;
+    background: #003d66;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+    padding: 0.1em;
+    font-size: 0.9em;
+    font-family:"Lucida Sans", "DejaVu Sans", "Lucida Grande", "Segoe UI", Verdana, Helvetica, sans-serif;
+}
+
+.back1
+{
+  height: 80%;
+  background-color: #00cc99;
+  color: white;
+  text-align: center;
+}
+
+.back2
+{
+  height: 80%;
+  background-color: #b30000;
+  color: white;
+  text-align: center;
+}
+
+.back3
+{
+  height: 80%;
+  background-color: #cc9900;
+  color: white;
+  text-align: center;
+}

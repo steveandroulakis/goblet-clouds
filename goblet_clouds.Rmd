@@ -1,0 +1,154 @@
+---
+title: "Introduction to clouds, terminology & resources"
+author: "Steve Androulakis"
+date: '`r Sys.Date()`'
+output: 
+    ioslides_presentation:
+        widescreen: yes
+        css: style.css
+        logo: logo.jpg
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div class="footer">Steve Androulakis, Monash Bioinformatics Platform (slides: steveandroulakis.github.io/goblet-clouds)</div>
+
+# The Problem: Physical Limits & Need for Automation = Complex Interfaces
+```{r The Problem}
+```
+
+## Contents
+
+I'll show you..
+
+- What is the cloud? What for?
+- Solution case studies.
+
+```{r, out.width = "600px"}
+knitr::include_graphics("clouds.jpg")
+```
+
+## The Cloud: A Metaphor
+
+<div class="columns-2">
+<div align="center">
+
+**Serviced Apartments..**
+
+```{r, out.width = "400px"}
+knitr::include_graphics("hotel.jpg")
+```
+
+</div>
+<br/><br/>
+
+- You can't afford the entire building.
+- You don't NEED the whole building.
+- But you want an apartment, and you want some control over what you do there and who visits.
+- You also don't want people in the other apartments ruining your experience.
+- You just need it for a few weeks. And more rooms this weekend for a party!
+
+</div>
+
+## The Cloud
+
+#### Some clouds..
+
+
+<div align="center">
+```{r, out.width = "150px"}
+knitr::include_graphics("aws.png")
+knitr::include_graphics("azure.png")
+knitr::include_graphics("google.png")
+knitr::include_graphics("rackspace.png")
+knitr::include_graphics("nectar.png")
+```
+
+</div>
+
+
+#### Some common and confronting aspects of clouds..
+
+<div class='smaller'>
+
+- Key pairs not passwords
+- Security groups
+- Storage 'volumes'
+- 'Object' storage
+
+</div>
+
+## Commercial Clouds
+
+Pros | Cons
+------------- | ----------
+'Infinite' Power  | Often Expensive
+On-Demand  | Easy to be irresponsible
+Upgrades | Can get 'locked in'
+Reliable | Data soverignity worries
+Competition | ...
+No Procurement, Ops, Space | ...
+
+## {.flexbox .vcenter}
+
+**Data soverignity: Microsoft Azure**
+
+"European Union (EU) data protection law regulates the transfer of EU customer personal data to countries outside the European Economic Area (EEA).."
+
+...
+
+"Microsoft has invested in the operational processes necessary to meet the exacting requirements of the Model Clauses for the transfer of personal data to processors."
+
+(https://www.microsoft.com/en-us/TrustCenter/Compliance/EU-Model-Clauses)
+
+## Non-Commercial Clouds
+
+Pros | Cons
+------------- | ----------
+Cost Effective (merit)! | Booked out
+Great for long-running services | Unreliable?
+On-site | ...
+
+<br/>
+
+**Over-all recommendation:** They're complimentary solutions. Long-running compute, eg web hosting and services is quite good on a non-commercial cloud. 'Bursty' on AWS.
+
+
+# Case Studies
+```{r Case Studies}
+```
+
+
+## {.back1}
+**Genomics Virtual Lab: Bioinformatics Gateway Drug**
+
+```{r, out.width="875px"}
+knitr::include_graphics("galaxy.png")
+```
+
+## {.back2}
+**Stuart's Nature Paper + App: Perfect Cloud Exemplar**
+
+<div class="columns-2">
+
+<br/>
+
+```{r, out.width = "470px"}
+knitr::include_graphics("nature.png")
+```
+
+<br/>
+
+```{r, out.width = "470px"}
+knitr::include_graphics("tcp.png")
+```
+
+## {.back3}
+**Monash Bioinformatics Platform's Day to Day Compute and Storage**
+
+```{r, out.width="700px"}
+knitr::include_graphics("bioansible.png")
+```
