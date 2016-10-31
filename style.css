@@ -25,6 +25,16 @@ slides > slide:not(.nobackground):before {
    font-size: 0.8em;
 }
 
+.evensmaller {
+   padding: 0.3em;
+   font-size: 0.65em;
+}
+
+.evensmaller a {
+   text-decoration: underline;
+   color: #f7faff;
+}
+
 table{
   font-size: 0.8em;
   width: 80%;

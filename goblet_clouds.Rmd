@@ -2,11 +2,12 @@
 title: "Introduction to clouds, terminology & resources"
 author: "Steve Androulakis"
 date: '`r Sys.Date()`'
-output: 
-    ioslides_presentation:
-        widescreen: yes
-        css: style.css
-        logo: logo.jpg
+output:
+  ioslides_presentation:
+    css: style.css
+    logo: logo.jpg
+    widescreen: yes
+  slidy_presentation: default
 ---
 
 
@@ -132,18 +133,20 @@ knitr::include_graphics("galaxy.png")
 ## {.back2}
 **Stuart's Nature Paper + App: Perfect Cloud Exemplar**
 
-<div class="columns-2">
+<div class='evensmaller'>Archer, S. K., Shirokikh, N. E., Beilharz, T. H. & Preiss, T. Dynamics of ribosome scanning and recycling revealed by translation complex profiling. Nature 535, 570–574 (2016). <a href="http://dx.doi.org/10.1038/nature18647">doi:10.1038/nature18647</a></div>
 
-<br/>
-
-```{r, out.width = "470px"}
+```{r, out.width = "700px"}
 knitr::include_graphics("nature.png")
 ```
 
-<br/>
 
-```{r, out.width = "470px"}
-knitr::include_graphics("tcp.png")
+## {.back2}
+**Stuart's Nature Paper + App: Perfect Cloud Exemplar**
+
+<div class='evensmaller'><a href="http://bioapps.erc.monash.edu/TCP/">http://bioapps.erc.monash.edu/TCP/</a> - Amazon Web Services: Elastic Beanstalk + Elastic Container Store</div>
+
+```{r, out.width = "950px"}
+knitr::include_graphics("tcp2.png")
 ```
 
 ## {.back3}
@@ -152,3 +155,17 @@ knitr::include_graphics("tcp.png")
 ```{r, out.width="700px"}
 knitr::include_graphics("bioansible.png")
 ```
+
+## Summary and Thanks
+
+*Positives:* Cloud computing can help you 'get on with it' by being: powerful, flexible reliable, cost effective
+
+*Negatives:* Clouds can be confusing: security, access, business model
+
+I've showed you some ways we've made both commercial and non-commercial clouds work for us.
+
+<hr/><br/>
+
+Visit us: <a href="http://monash.edu/bioinformatics">monash.edu/bioinformatics</a>
+
+Steve.Androulakis@monash.edu
